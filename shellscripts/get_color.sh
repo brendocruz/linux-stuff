@@ -4,7 +4,7 @@
 readonly -A OPT_MODES=(
 	b    1    # bold
 	t    2    # dim or faint
-	i	 3    # italic
+	i    3    # italic
 	u    4    # underline
 	k    5    # blinking
 	v    7    # reverse or inverse
@@ -27,10 +27,10 @@ readonly -A CODE_COLORS=(
 readonly PFX_MODE_RESET=2
 readonly -A OPT_PFX=(
 	r   0    # reset all
-	d	3    # dim_fg
-	D	4    # dim_bg
-	l	9    # bright_fg
-	L	10   # bright_bg
+	d   3    # dim_fg
+	D   4    # dim_bg
+	l   9    # bright_fg
+	L   10   # bright_bg
 )
 
 
